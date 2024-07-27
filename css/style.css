@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color:burlywood;
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    background-image:url(../images/Inkedhero-desktop-1500w_LI.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    justify-content: right;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.row{
+    display: flex;
+    height: 30%;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.col{
+    flex-basis: 50%;
+
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Thumb{
+    width: 170px;
+    height: 200px;
+    margin-top: 160px;
+    margin-left:25px;
+    border-radius: 40px;
+    border: 5px solid burlywood;
+}
+
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content ul{
+    margin-top: 180px;
+    margin-left:170px ;
+}
+
+.content ul li{
+    color:darkolivegreen;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.Section-1{
+    width: 100%;
+    height: 85vh;
+    background-image: url(../images/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.sect-text-1{
+    align-items: center;
+    padding: 10px;
+}
+
+.sect-text-1 h3{
+    padding-top: 300px;
+    font-size: 25px;
+    color: white;
+}
+
+.email{
+    width: 270px;
+    height: 40px;
+    padding: 20px;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.sect-text-1 button{
+    height: 42px;
+    background-color: burlywood;
+    font-size: 15px;
+    width: 70px;
+    border:3px solid black ;
+    border-radius:5px ;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: black;
+    align-items: center;
+    height:30px;
+    text-align: center;
+}
